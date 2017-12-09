@@ -1,6 +1,8 @@
 # TranscriptGenerator
 Configurable tool for generating a transcript with timestamps from plain text
 
+![Config Coarse Page](docs/images/config-coarse.png)
+
 ## [Example](docs/example.md)
 
 ## Getting Started
