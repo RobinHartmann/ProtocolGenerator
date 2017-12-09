@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="TranscriptGenerator.PageSwitcher.Pages.ConfigCoarse"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             xmlns:my="clr-namespace:TranscriptGenerator.Utilities"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1.15*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="Timestamp Generator Configuration" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="Starting time" HorizontalAlignment="Right" Margin="0,0,-35,25"/>
+        <my:TimePicker x:Name="timStartingTime" Grid.Row="1" Grid.Column="1" Value="12:00:00" Width="70" Height="25" Margin="35,2,0,2" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Added time within lines [ms]" HorizontalAlignment="Right" Margin="0,0,-35,0"/>
+        <xctk:IntegerUpDown Name="intTimeWithinLines" Grid.Row="2" Grid.Column="1" Text="65" Minimum="0" DefaultValue="0" DisplayDefaultValueOnEmptyText="True" Width="60" Margin="35,2,0,2" HorizontalAlignment="Left"/>
+        <RadioButton Grid.Row="3" Grid.Column="0" Name="rbtPerLetter" Content="per letter" IsChecked="True" Margin="0,0,-25,0" HorizontalAlignment="Right"/>
+        <RadioButton Grid.Row="3" Grid.Column="1" Name="rbtPerWord" Content="per word" HorizontalAlignment="Left" Margin="35,0,0,0"/>
+        <Label Grid.Row="4" Grid.Column="0" Content="Added time between lines [ms]" HorizontalAlignment="Right" Margin="0,0,-35,0"/>
+        <xctk:IntegerUpDown Name="intTimeBetweenLines" Grid.Row="4" Grid.Column="1" Text="750" Minimum="0" DefaultValue="0" DisplayDefaultValueOnEmptyText="True" Width="60" Margin="35,2,0,2" HorizontalAlignment="Left"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" TextAlignment="Center" Margin="0,0,0,10" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            Press Continue to view a preview using your settings.
+            <LineBreak/> 
+            There you will be able to edit the timestamps for each line.
+        </TextBlock>
+    </Grid>
+</UserControl>
