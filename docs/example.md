@@ -27,19 +27,19 @@ Forty two.
 
 ### Step 1: Paste Text
 
-![Text Input Page](docs/images/text-input.png)
+![Text Input Page](images/text-input.png)
 
 ### Step 2: Choose Lines
 
-![Line Chooser Page](docs/images/line-chooser.png)
+![Line Chooser Page](images/line-chooser.png)
 
 ### Step 3: Configure Generator
 
-![Config Coarse Page](docs/images/config-coarse.png)
+![Config Coarse Page](images/config-coarse.png)
 
 ### Step 4: Fine-tune Timestamps
 
-![Config Detailed Page](docs/images/config-detailed.png)
+![Config Detailed Page](images/config-detailed.png)
 
 ### Output
 
