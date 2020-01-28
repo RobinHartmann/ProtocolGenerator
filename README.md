@@ -30,7 +30,7 @@ Just copy over `TranscriptGenerator.exe` and run it. An installation is not need
 
 ## Authors
 
-* **Robin Hartmann** - *Initial work* - [robin-hartmann](https://github.com/robin-hartmann)
+* **Robin Hartmann** - [robin-hartmann](https://github.com/robin-hartmann)
 
 ## License
 
