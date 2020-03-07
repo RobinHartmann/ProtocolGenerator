@@ -9,11 +9,11 @@ Configurable tool for generating a transcript with timestamps from plain text
 
 These instructions will get you a release of this project up and running on your local machine, so that you can start using it.
 
-### 📋 Prerequisites
+### Prerequisites
 
 * [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
 
-### 🚀 Getting Started
+### Getting Started
 
 Just copy over `TranscriptGenerator.exe` and run it. An installation is not needed.
 
@@ -21,7 +21,7 @@ Just copy over `TranscriptGenerator.exe` and run it. An installation is not need
 
 These instructions will get you a copy of this project up and running on your local machine for development and testing purposes.
 
-### 📋 Prerequisites
+### Prerequisites
 
 * [Visual Studio 2015/2017](https://www.visualstudio.com/de/vs/) - Fully-featured IDE for Android, iOS, Windows, web, & cloud
 
