@@ -25,7 +25,7 @@ These instructions will get you a copy of this project up and running on your lo
 
 * [Visual Studio 2015/2017](https://www.visualstudio.com/de/vs/) - Fully-featured IDE for Android, iOS, Windows, web, & cloud
 
-## 🔧 Built With
+## 🧰 Built With
 
 * [Extended WPF Toolkit](https://github.com/xceedsoftware/wpftoolkit) - All the controls missing in WPF
 * [Costura](https://github.com/Fody/Costura) - Embeds dependencies as resources
