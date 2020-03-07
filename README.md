@@ -7,6 +7,8 @@ Configurable tool for generating a transcript with timestamps from plain text
 
 ## ⚡ Deployment
 
+These instructions will get you a release of this project up and running on your local machine, so that you can start using it.
+
 ### 📋 Prerequisites
 
 * [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
@@ -17,7 +19,7 @@ Just copy over `TranscriptGenerator.exe` and run it. An installation is not need
 
 ## 🛠️ Development
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of this project up and running on your local machine for development and testing purposes.
 
 ### 📋 Prerequisites
 
